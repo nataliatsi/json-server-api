@@ -1,0 +1,101 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Marina",
+      "email": "marina@gmail.com",
+      "nascimento": "22/12/1987"
+    },
+    {
+      "nome": "Carollina",
+      "email": "carollina@gmail.com",
+      "nascimento": "21/02/1997",
+      "id": 2
+    },
+    {
+      "nome": "Daniel",
+      "email": "daniel@gmail.com",
+      "nascimento": "01/08/1976",
+      "id": 3
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Açúcar Mascavo",
+      "fornecedoreId": 1
+    },
+    {
+      "nome": "Açúcar Refinado",
+      "fornecedorId": 1,
+      "id": 2
+    },
+    {
+      "nome": "Café Forte",
+      "fornecedorId": 2,
+      "id": 3
+    },
+    {
+      "nome": "Café Suave",
+      "fornecedorId": 2,
+      "id": 4
+    },
+    {
+      "nome": "Leite Integral",
+      "fornecedorId": 3,
+      "id": 5
+    },
+    {
+      "nome": "Leite Tipo A",
+      "fornecedorId": 3,
+      "id": 7
+    },
+    {
+      "nome": "Leite Semidesnatado",
+      "fornecedorId": 3,
+      "id": 8
+    }
+  ],
+  "fornecedores": [
+    {
+      "uf": "MG",
+      "nomeDaEmpresa": "Remaster LTDA",
+      "produtoFornecido": "Açúcar",
+      "id": 1
+    },
+    {
+      "uf": "MG",
+      "nomeDaEmpresa": "Grupo Sabor Expresso LTDA",
+      "produtoFornecido": "Café",
+      "id": 2
+    },
+    {
+      "uf": "MG",
+      "nomeDaEmpresa": "São Pedro LTDA",
+      "produtoFornecido": "Leite",
+      "id": 3
+    }
+  ],
+  "entregadores": [
+    {
+      "id": 1,
+      "nome": "David"
+    },
+    {
+      "nome": "Jonas",
+      "id": 2
+    },
+    {
+      "nome": "Lívia",
+      "id": 3
+    },
+    {
+      "nome": "Giullia",
+      "id": 5
+    },
+    {
+      "nome": "Pedro",
+      "id": 6
+    }
+  ]
+}
